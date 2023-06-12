@@ -10,6 +10,13 @@ public:
     ATest() : a(1), b(2) {}
 };
 
+class MoreTest {
+    double a;
+    double b;
+    MoreTest() : a(1.2), b(2.2) {}
+};
+
+
 int main()
 {
     ATest atest;
